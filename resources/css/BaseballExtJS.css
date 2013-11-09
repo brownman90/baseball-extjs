@@ -1,0 +1,79 @@
+/*
+body {
+	font-family: 'Helvetica, Arial, sans-serif';
+}
+*/
+
+#app-header {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 8px 8px 8px 12px;
+	margin: 5px 0 0;
+	border-radius: 5px 5px 5px 5px;
+	background: #555555 repeat scroll 0 0;
+	text-shadow: none;
+}
+
+.x-border-layout-ct {
+    /*background: #666;*/ /*0099cc;*/
+	background: #ffffff;
+}
+
+.x-portal .x-portal-column {
+    /* columns must have vertical padding to avoid losing dimensions when empty */
+    padding: 5px 8px 0 0;
+}
+
+.x-accordion-layout-ct {
+    background-color: #FFFFFF;
+    padding: 0 5px;
+}
+
+.x-theme-neptune #app-header {
+    color: white;
+    text-shadow: none;
+}
+
+.x-toolbar-footer, .x-panel-header-default-horizontal-noborder {
+    margin: 5px 5px 5px 0;
+    padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.x-panel-header-default-vertical {
+    background-color: #555555;
+    background-image: none;
+	margin: 5px 5px 5px 0;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.x-tab-bar-strip-default-top {
+    border-width: 0;
+    height: 7px;
+}
+
+.x-btn-default-small .x-btn-inner {
+    color: #FFFFFF;
+    font-family: helvetica,arial,verdana,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+	font-style: italic;
+    padding: 0 5px;
+}
+
+.x-form-text {
+	font-style: italic;
+}
+
+.x-header-text, .x-tab-inner {
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ddd;
+}
+
+.x-form-layout-table {
+    border-collapse: separate;
+    border-spacing: 3px 2px;
+}

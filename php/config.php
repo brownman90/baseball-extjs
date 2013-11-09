@@ -1,0 +1,23 @@
+<?php
+$API = array(
+    'Player'=>array(
+        'methods'=>array(
+            'getResults'=>array(
+                'len'=>1
+            ),
+            'showDetails'=>array(
+                'params'=>array(
+                    'nameLast',
+                    'nameFirst'
+                )
+            )
+        )
+    ),
+    'PlayerBatting'=>array(
+        'methods'=>array(
+            'getResults'=>array(
+                'len'=>1
+            )
+        )
+    )
+);
